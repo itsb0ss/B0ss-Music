@@ -1,11 +1,1 @@
-const activites = [
-  'The Rookie',
-  'Made by B0ss1',
-  'Kanye East',
-  'Supported By 4 Servers'
-];
 
-setInverval(() => {
-const status = activites[Math.floor(Math.random() * activites.length)];
-client.user.setPresence({ activites: [{ name: `${status}`}]});
-}, 10000);
