@@ -6,7 +6,7 @@ let selectedThumbnailURL;
 
 module.exports = {
   name: "play",
-  description: "come one let's hear some music!!",
+  description: "Start playing music.",
   permissions: "0x0000000000000800",
   options: [{
     name: 'name',
