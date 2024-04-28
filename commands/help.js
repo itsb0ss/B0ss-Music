@@ -43,7 +43,6 @@ module.exports = {
           { name: '⏮️ Previous', value: 'Play the previous song in the queue' },
           { name: '🔀 Shuffle', value: 'Shuffle the songs in queue' }
         )
-        .setImage(`https://tenor.com/view/%D1%80%D0%B5%D0%B0%D0%BA%D1%86%D0%B8%D1%8F-%D1%82%D0%B0%D0%BA%D0%B5%D1%80-%D0%BA%D0%B0%D1%80%D0%BB%D1%81%D0%BE%D0%BD-tucker-carlson-gif-3836607876557817069`); 
 
       const basicCommandsEmbed = new EmbedBuilder()
         .setColor(client.config.embedColor)
@@ -56,7 +55,7 @@ module.exports = {
            { name: '🎵 Now Playing', value: 'Display the currently playing song information' },
           { name: '🔊 Volume', value: 'Adjust the music volume [ hearing at high volumes is risky ]' },
         ) 
-       .setImage('https://tenor.com/view/%D1%80%D0%B5%D0%B0%D0%BA%D1%86%D0%B8%D1%8F-%D1%82%D0%B0%D0%BA%D0%B5%D1%80-%D0%BA%D0%B0%D1%80%D0%BB%D1%81%D0%BE%D0%BD-tucker-carlson-gif-3836607876557817069')
+       .setImage('https://media.discordapp.net/attachments/1129401588952354947/1231483195661352960/GLoi2SPWgAEZRjL.png?ex=662f3619&is=662de499&hm=facd39178ee4be9dafd67fff836d997caedfb697d5b9a8b2c4fd0eb6f2f88e69&=&format=webp&quality=lossless')
       const button1 = new ButtonBuilder()
         .setLabel('YouTube')
         .setURL('https://www.youtube.com/channel/UCcjhyegbRmHxBD15FTa4dyQ')
