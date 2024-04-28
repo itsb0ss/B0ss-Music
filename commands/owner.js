@@ -24,7 +24,7 @@ module.exports = {
 
   run: async (client, interaction) => {
     try {
-      const youtubeLink = 'https://discord.gg/2wVFGjZqQw';
+      const youtubeLink = 'https://www.youtube.com/channel/UCcjhyegbRmHxBD15FTa4dyQ';
       const RobloxLink = 'https://www.roblox.com/users/691099876/profile';
       const { EmbedBuilder } = require('discord.js')
         const embed = new EmbedBuilder()
