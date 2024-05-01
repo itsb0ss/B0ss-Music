@@ -66,8 +66,13 @@ module.exports = {
         .setURL('https://discord.gg/2wVFGjZqQw')
         .setStyle(ButtonStyle.Link);
 
+        const button2 = new ButtonBuilder()
+        .setLabel('Bot Status')
+        .setURL('https://b0ssinc.statuspage.io/#')
+        .setStyle(ButtonStyle.Link);
+      
       const row = new ActionRowBuilder()
-        .addComponents(button1, button2);
+        .addComponents(button1, button2, button3);
 
       interaction.reply({
         embeds: [musicCommandsEmbed, basicCommandsEmbed],
