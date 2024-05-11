@@ -56,7 +56,7 @@ module.exports = {
           { name: '🔊 Volume', value: 'Adjust the music volume [ hearing at high volumes is risky ]' },
         ) 
        .setImage('https://media.discordapp.net/attachments/1129401588952354947/1231483195661352960/GLoi2SPWgAEZRjL.png?ex=662f3619&is=662de499&hm=facd39178ee4be9dafd67fff836d997caedfb697d5b9a8b2c4fd0eb6f2f88e69&=&format=webp&quality=lossless')
-      const button1 = new ButtonBuilder()
+const button1 = new ButtonBuilder()
         .setLabel('YouTube')
         .setURL('https://www.youtube.com/channel/UCcjhyegbRmHxBD15FTa4dyQ')
         .setStyle(ButtonStyle.Link);
@@ -66,11 +66,11 @@ module.exports = {
         .setURL('https://discord.gg/2wVFGjZqQw')
         .setStyle(ButtonStyle.Link);
 
-        const button2 = new ButtonBuilder()
-        .setLabel('Bot Status')
+      const button3 = new ButtonBuilder()
+        .setLabel('Bot Status Site')
         .setURL('https://b0ssinc.statuspage.io/#')
         .setStyle(ButtonStyle.Link);
-      
+
       const row = new ActionRowBuilder()
         .addComponents(button1, button2, button3);
 
